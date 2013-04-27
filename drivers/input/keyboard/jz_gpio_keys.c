@@ -115,8 +115,8 @@ static const struct {
 	{ .gpio = (0)/*GPE11*/,	.actlow = 1,	.ncode = KEY_LEFTALT,							}, /* B button */
 	{ .gpio = (0)/*GPD16*/,	.actlow = 1,	.ncode = KEY_SPACE,							}, /* X button */
 	{ .gpio = (0)/**/,	.actlow = 1,	.ncode = KEY_LEFTSHIFT,							}, /* Y button */
-	{ .gpio = (32*4+11)/*GPE11*/,	.actlow = 1,	.ncode = KEY_BACKSPACE,	.scode = KEY_EXIT				}, /* Right shoulder button */
-	{ .gpio = (0)/*GPE10*/,	.actlow = 1,	.ncode = KEY_TAB,							}, /* Left shoulder button */
+	{ .gpio = (32*4+11)/*GPE11*/,	.actlow = 1,	.ncode = KEY_TAB,	.scode = KEY_EXIT				}, /* Left shoulder button */
+	{ .gpio = (0)/*GPE10*/,	.actlow = 1,	.ncode = KEY_BACKSPACE,							}, /* Right shoulder button */
 	{ .gpio = (0)/*GPD21*/,	.actlow = 1,	.ncode = KEY_ENTER,							}, /* START button(SYSRQ) */
 	{ .gpio = (0)/*GPE8*/,	.actlow = 1,	.ncode = KEY_ESC,	.scode = KEY_MENU,		.sysrq = 'b'	}, /* SELECT button */
 //	{ .gpio = (32*3+18)/*GPD18*/,	.actlow = 1,	.ncode = KEY_PAUSE,							}, /* HOLD */
